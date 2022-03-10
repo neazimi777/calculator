@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Setting" android:id="@+id/setting">
+
+        <menu>
+            <item android:title="Phone Setting"  android:id="@+id/phone_setting"/>
+            <item android:title="Profile Setting" android:id="@+id/profile_setting"/>
+
+
+        </menu>
+
+
+    </item>
+    <group >
+    <item android:title="Contacts" android:id="@+id/contacts"/>
+    <item android:title="Profile" android:id="@+id/profile"/>
+    </group>
+</menu>
